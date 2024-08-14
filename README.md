@@ -6,7 +6,7 @@
     <p align="center">
         <p>IDURAR ERP CRM | Simple To Use </p>
     </p>
-    
+
   [www.idurarapp.com/open-source-erp-crm/](https://www.idurarapp.com/open-source-erp-crm/)
 
 IDURAR is Open Source ERP / CRM (Invoice / Inventory / Accounting / HR) Based on Advanced Mern Stack (Node.js / Express.js / MongoDb / React.js ) with Ant Design (AntD) and Redux
@@ -19,11 +19,9 @@ IDURAR is Open Source ERP / CRM (Invoice / Inventory / Accounting / HR) Based on
 
 ## Our Sponsors
 
-  <a href="https://m.do.co/c/4ead8370b905?ref=idurarapp.com">
+<a href="https://m.do.co/c/4ead8370b905?ref=idurarapp.com">
     <img src="https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/PoweredByDO/DO_Powered_by_Badge_blue.svg" width="201px">
   </a>
-
-#
 
 ![Open Source ERP / CRM - MERN Stack (Node.js/React.js)](https://user-images.githubusercontent.com/50052356/141647096-dcb66696-6103-4850-ae21-9fc97a412252.png)
 
@@ -40,7 +38,7 @@ IDURAR is Open Source ERP / CRM (Invoice / Inventory / Accounting / HR) Based on
 #### Step 1: Clone the repository
 
 ```bash
-git clone https://github.com/idurar/idurar-erp-crm.git
+git clone https://github.com/Pratham-Jain-3903/CRM_Mini_Project.git
 ```
 
 ```bash
@@ -50,9 +48,7 @@ cd idurar-erp-crm
 #### Step 2: Create Your MongoDB Account and Database/Cluster
 
 - Create your own MongoDB account by visiting the MongoDB website and signing up for a new account.
-
 - Create a new database or cluster by following the instructions provided in the MongoDB documentation. Remember to note down the "Connect to your application URI" for the database, as you will need it later. Also, make sure to change `<password>` with your own password
-
 - add your current IP address to the MongoDB database's IP whitelist to allow connections (this is needed whenever your ip changes)
 
 #### Step 3: Create the Environment File
@@ -124,15 +120,16 @@ npm run start
 
 This command will start the frontend server, and you'll be able to access the website on localhost:3000 in your web browser.
 
-:exclamation: :warning:` If you encounter an OpenSSL error while running the frontend server, follow these additional steps:`
+❗️ ⚠️` If you encounter an OpenSSL error while running the frontend server, follow these additional steps:`
 
 Reason behind error: This is caused by the node.js V17 compatible issues with OpenSSL, see [this](https://github.com/nodejs/node/issues/40547) and [this](https://github.com/webpack/webpack/issues/14532) issue on GitHub.
 
 Try one of these and error will be solved
 
 - > Downgrade to Node.js v16.
-
+  >
 - > Enable legacy OpenSSL provider
+  >
 
 Here is how you can enable legacy OpenSSL provider
 
