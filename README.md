@@ -18,7 +18,7 @@ The **GenAI-Powered Credit Access Platform** aims to transform the landscape of 
 
 This solution is built on top of the existing open-source ERP community called **IDURAR**, which I have contributed to in the past. Leveraging the robust features and community support of IDURAR, this GenAI-powered platform enhances credit access for underserved MSMEs, driving financial inclusion and economic growth in previously overlooked markets.
 
-link to my opensource community :) : [https://github.com/idurar/idurar-erp-crm/tree/master](url)
+link to my opensource community :) : [https://github.com/idurar/idurar-erp-crm](url)
 ---
 
 ## Key Features
